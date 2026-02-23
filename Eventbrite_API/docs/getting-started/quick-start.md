@@ -1,7 +1,5 @@
 # Quick Start Guide
 
-<br>
-
 This guide helps you make your first successful request to the Eventbrite API. It will guide you to prepare the required prerequisites, authenticate using a private token, make your first API request, and verify the response using common tools. It designs to get you from zero to your first API response as quickly as possible.
 
 ### Table of Contents
