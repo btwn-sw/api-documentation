@@ -1,20 +1,18 @@
 # Response Handling Guide
 
----
-
 The Eventbrite API returns structured JSON responses that often include nested objects, optional fields, and HTML-formatted content. This guide explains how to safely and consistently consume Eventbrite API responses in real-world applications.
 
 ***Note**: This guide complements the API Reference and focuses on response consumption rather than schema definition.* 
 
 ### Table of Contents
 
-- Eventbrite API Responses
-- Common Response Structure
-- Handling HTML-Formatted Content
-- Error Responses
-- Best Practices
+- [Eventbrite API Responses](#eventbrite-api-responses)
+- [Common Response Structure](#common-response-structure)
+- [Handling HTML-Formatted Content](#handling-html-formatted-content)
+- [Error Responses](#error-responses)
+- [Best Practices](#best-practices)
 
----
+<br>
 
 ## Eventbrite API Responses
 
@@ -22,7 +20,7 @@ The Eventbrite API returns structured JSON responses that often include nested o
 - Not all fields are guaranteed to be present.
 - Some fields contain pre-formatted HTML content.
 
----
+<br>
 
 ## Common Response Structure
 
@@ -84,7 +82,7 @@ Most Event-related endpoints return an Event object. An event object typically i
 | `hide_start_date`  | boolean | Yes | Start date for event scheduling (UTC timestamps). |
 | `hide_end_date` | boolean | Yes | End date for event scheduling (UTC timestamps). |
 
----
+<br>
 
 ## Handling HTML-Formatted Content
 
@@ -159,7 +157,7 @@ The Eventbrite API responses may include optional or conditional fields. Check f
 - Fields set to `null`
 - Fields omitted due to permission constraints.
 
----
+<br>
 
 ## Error Responses
 
@@ -205,9 +203,8 @@ Event-related endpoints may return error responses when a request fails.
       "error": "NOT_FOUND"
     }
     ```
-    
 
----
+<br>
 
 ## Best Practices
 
@@ -216,10 +213,14 @@ Event-related endpoints may return error responses when a request fails.
 - Treat HTML fields separately from plain text fields.
 - Convert API error responses into user-friendly messages.
 
----
+<br>
 
 ## Next steps
 
-- API Reference
-- Authentication Guide
-- Code Examples
+- [API Reference](../api/api-reference.md)
+- [Authentication Guide](../guides/authentication.md)
+- [Code Examples](../examples/code-examples.md)
+
+<br>
+
+---
