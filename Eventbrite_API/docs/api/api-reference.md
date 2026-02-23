@@ -55,7 +55,7 @@ Eventbrite API provides try-it-out features in the right pane to call requests r
 **API Authentication**
 
 - All Eventbrite API requests require authentication.
-- See the Authentication Guide for the detailed authentication flow.
+- See the [Authentication Guide](../guides/authentication.md) for the detailed authentication flow.
 
 <br>
 
@@ -86,7 +86,7 @@ Eventbrite enforces rate limits on API calls across all integrated applications 
 
 ## Error Handling
 
-Event-related endpoints may return the following error responses. For error handling strategies, see the Response Handling Guide.
+Event-related endpoints may return the following error responses. For error handling strategies, see the [Response Handling Guide](../guides/response_handling.md).
 
 ### HTTP Status Codes
 
