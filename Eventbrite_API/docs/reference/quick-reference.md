@@ -121,7 +121,7 @@ X-Apiary-RateLimit-Limit
 X-Apiary-RateLimit-Remaining
 ```
 
-See [API Reference](../api/api-reference.md) - Rate Limiting for details.
+See API Reference - [Rate Limiting](../api/api-reference.md/#rate-limiting) for details.
 
 <br>
 
