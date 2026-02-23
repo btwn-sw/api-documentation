@@ -36,6 +36,7 @@ https://www.eventbriteapi.com/v3
 Eventbrite API provides try-it-out features in the right pane to call requests routed via *Apiary*. You can see the detailed information about endpoints and try out a request by clicking the “*Blocked title*” for endpoints (e.g., **Retrieve an Event**). 
 ``![image.png](attachment:a677808d-48ee-4973-8847-cff6659162da:image.png)``
 
+<br>
 
 ## Authentication
 
@@ -56,6 +57,7 @@ Eventbrite API provides try-it-out features in the right pane to call requests r
 - All Eventbrite API requests require authentication.
 - See the Authentication Guide for the detailed authentication flow.
 
+<br>
 
 ## Rate Limiting
 
@@ -80,6 +82,7 @@ Eventbrite enforces rate limits on API calls across all integrated applications 
     X-Apiary-RateLimit-Remaining
     ```
     
+<br>
 
 ## Error Handling
 
@@ -104,6 +107,7 @@ Event-related endpoints may return the following error responses. For error hand
 }
 ```
 
+<br>
 
 ## Event Endpoints
 
@@ -405,6 +409,7 @@ curl --include \
 }
 ```
 
+<br>
 
 ## Nest steps
 
@@ -413,5 +418,6 @@ curl --include \
 - [Code Examples](../examples/code-examples.md)
 - [SDKs](../sdks/sdks.md)
 
+<br>
 
 ---
