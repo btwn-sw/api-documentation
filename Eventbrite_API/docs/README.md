@@ -118,6 +118,9 @@ This project is a documentation-focused portfolio and is not intended for produc
 ## About Eventbrite
 [Eventbrite](https://www.eventbrite.com/platform/api/) is an event management and ticketing platform that provides a RESTful API for accessing event data.
 
+### Legal and Terms
+This documentation is based on Eventbrite’s publicly available API documentation and the Eventbrite API Terms of Use. It does not replace or modify the official Eventbrite Terms of Service. Refer to Eventbrite’s [Legal Terms](https://www.eventbrite.com/help/en-us/topics/terms-and-policies/) for full details.
+
 <br>
 
 
