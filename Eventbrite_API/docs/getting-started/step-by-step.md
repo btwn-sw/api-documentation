@@ -1,15 +1,13 @@
 # Step-by-Step Tutorial
 
----
-
 This tutorial walks you through retrieving event details using the Eventbrite API. By the end of this guide, you will have successfully, authenticating an API request, calling an Eventbrite API endpoint, inspecting the API response, and importing and testing the request in Postman.
 
 ### Table of Contents
 
-- Prerequisites
-- Step-by-Step Guide
+- [Prerequisites](#prerequisites)
+- [Step-by-Step Guide](#step-by-step-guide)
 
----
+<br>
 
 ## Prerequisites
 
@@ -19,13 +17,13 @@ Eventbrite API requires the following:
 - A valid **Private (OAuth) Token**
 - A Postman account installed or accessible via browser
 
----
+<br>
 
 ## Step-by-Step Guide
 
 **Step 1. Get a Private Token**
 
-To authenticate API requests, you need a private token. If you have not yet created the token, follow the instructions in the Authentication Guide.
+To authenticate API requests, you need a private token. If you have not yet created the token, follow the instructions in the [Authentication Guide](../guides/authentication.md).
 
 **Step 2. Select an API Endpoint**
 
@@ -78,7 +76,7 @@ To reuse the request outside the console, generate a code snippet.
 
 1. Click **Show Code Example**, right below the parameters section **i**n the Console pane.
     
-    ![image.png](attachment:f9dce0b9-7502-4c22-bf2f-cd2e52a4571a:image.png)
+    ``![image.png](attachment:f9dce0b9-7502-4c22-bf2f-cd2e52a4571a:image.png)``
     
 2. Select the **cURL**.
 You can change the language you preferred from the language dropdown.
@@ -102,25 +100,29 @@ To further inspect the request and response, import the cURL command into Postma
 4. Change into the collection name (optional).
 Collection lets you group related requests.
     
-    ![image.png](attachment:6f2579e4-a5f9-4749-9fa2-fcde933148da:image.png)
+    ``![image.png](attachment:6f2579e4-a5f9-4749-9fa2-fcde933148da:image.png)``
     
 5. Click the `Import Into Collection` button.
 Then, Postman automatically populates a new tab with the OAuth information under the **Headers** tab.
     
-    ![image.png](attachment:9a272c44-687c-4ae6-be77-5b4c966be425:image.png)
+    ``![image.png](attachment:9a272c44-687c-4ae6-be77-5b4c966be425:image.png)``
     
 6. Click the `Send` button to execute the request.
 7. Confirm that a `200 OK` response is successfully returned with the request’s details. 
 You can switch the response format to dropdown **‘{ } JSON’** if needed.
     
-    ![image.png](attachment:262c44c8-6006-4216-9e37-def9808f12f4:image.png)
+    ``![image.png](attachment:262c44c8-6006-4216-9e37-def9808f12f4:image.png)``
     
 
----
+<br>
 
 ## Next steps
 
-- API Reference
-- Response Handling Guide
-- Code Examples
-- SDKs
+- [API Reference](../api/api-reference.md)
+- [Response Handling Guide](../guides/response_handling.md)
+- [Code Examples](../examples/code-examples.md)
+- [SDKs](../sdks/sdks.md)
+
+<br>
+
+---
