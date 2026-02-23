@@ -5,14 +5,14 @@ This repository contains a complete, structured documentation set for the Eventb
 
 The documentation focuses on clarity, real-world usage, and developer experience, following common patterns used in professional API developer portals.
 
----
+<br>
 
 ## Why This Project
 This project was created to demonstrate end-to-end API documentation skills, beyond simple API references.
 
 It showcases how different documentation types work together to support developers throughout the full integration lifecycle.
 
----
+<br>
 
 ## What’s Included
 The repository includes the following documentation types:
@@ -47,25 +47,25 @@ The repository includes the following documentation types:
 
 ```
 
-- Quick Start Guide — helps developers make their first successful API request  
+- [Quick Start Guide](../docs/getting-started/quick-start.md) — helps developers make their first successful API request  
 
-- Authentication Guide — explains OAuth token creation and usage  
+- [Authentication Guide](../docs/guides/authentication.md) — explains OAuth token creation and usage  
 
-- Step-by-Step Tutorial — guided walkthrough using the Eventbrite API console and Postman  
+- [Step-by-Step Tutorial](../docs/getting-started/step-by-step.md) — guided walkthrough using the Eventbrite API console and Postman  
 
-- API Reference — detailed documentation for selected Event-related endpoints  
+- [API Reference](../docs/api/api-reference.md) — detailed documentation for selected Event-related endpoints  
 
-- Code Examples — practical request examples using cURL, JavaScript, and Node.js  
+- [Code Examples](../docs/examples/code-examples.md) — practical request examples using cURL, JavaScript, and Node.js  
 
-- Response Handling Guide — guidance on safely consuming API responses  
+- [Response Handling Guide](../docs/guides/response_handling.md) — guidance on safely consuming API responses  
 
-- SDKs Guide — explains integration approaches without official SDKs  
+- [SDKs Guide](../docs/sdks/sdks.md) — explains integration approaches without official SDKs  
 
-- Troubleshooting Guide — common issues and how to resolve them  
+- [Troubleshooting Guide](../docs/guides/troubleshooting.md) — common issues and how to resolve them  
 
-- Quick Reference Guide — concise overview of the Eventbrite API information 
+- [Quick Reference Guide](../docs/reference/quick-reference.md) — concise overview of the Eventbrite API information 
 
----
+<br>
 
 ## Documentation Structure
 The documentation is organized to reflect a typical developer journey:
@@ -77,17 +77,16 @@ The documentation is organized to reflect a typical developer journey:
 5. Handle responses and errors safely  
 6. Prepare for real-world usage and troubleshooting  
 
-
----
+<br>
 
 ## Getting Started
 If you are new to this repository, begin with:
 
-👉 **Quick Start Guide**
+👉 [**Quick Start Guide**](../docs/getting-started/quick-start.md)
 
 From there, follow the documentation in order based on your needs.
 
----
+<br>
 
 ## Intended Audience
 This documentation is intended for:
@@ -96,15 +95,18 @@ This documentation is intended for:
 - Technical writers building API documentation portfolios  
 - Reviewers evaluating documentation structure and quality  
 
-
----
+<br>
 
 ## Project Status
 This project is a documentation-focused portfolio and is not intended for production use.
 
 The content is based on publicly available Eventbrite API documentation and focuses on documentation structure and best practices.
 
----
+<br>
 
 ## About Eventbrite
 :contentReference[oaicite:0]{index=0} is an event management and ticketing platform that provides a RESTful API for accessing event data.
+
+<br>
+
+
