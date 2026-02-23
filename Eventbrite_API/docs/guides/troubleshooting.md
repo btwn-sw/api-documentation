@@ -1,21 +1,19 @@
 # Troubleshooting Guide
 
----
-
 This troubleshooting guide helps you diagnose and resolve common issues encountered when working with the Eventbrite API. It focuses on real-world problems related to authentication, permissions, response data, and rate limiting. 
 
 ### Table of Contents
 
-- Authentication Issues
-- Authorization and Permission Errors
-- Resource Not Found Errors
-- Unexpected or Missing Response Data
-- Handling HTML Content Issues
-- Rate Limiting Issues
-- Common Code Mistakes
-- General Debugging Tips
+- [Authentication Issues](#authentication-issues)
+- [Authorization and Permission Errors](#authorization-and-permission-errors)
+- [Resource Not Found Errors](#resource-not-found-errors)
+- [Unexpected or Missing Response Data](#unexpected-or-missing-response-data)
+- [Handling HTML Content Issues](#handling-html-content-issues)
+- [Rate Limiting Issues](#rate-limiting-issues)
+- [Common Code Mistakes](#common-code-mistakes)
+- [General Debugging Tips](#general-debugging-tips)
 
----
+<br>
 
 ## Authentication Issues
 
@@ -46,10 +44,10 @@ This troubleshooting guide helps you diagnose and resolve common issues encounte
 
 ### Related Documentation
 
-- Authentication Guide
-- API Reference
+- [Authentication Guide](../guides/authentication.md)
+- [API Reference](../api/api-reference.md)
 
----
+<br>
 
 ## Authorization and Permission Errors
 
@@ -73,10 +71,9 @@ This troubleshooting guide helps you diagnose and resolve common issues encounte
 
 ### Related Documentation
 
-- API Concepts
-- API Reference
+- [API Reference](../api/api-reference.md)
 
----
+<br>
 
 ## Resource Not Found Errors
 
@@ -105,10 +102,9 @@ This troubleshooting guide helps you diagnose and resolve common issues encounte
 
 ### Related Documentation
 
-- API Concepts
-- Step-by-Step Tutorial
+- [Step-by-Step Tutorial](../getting-started/step-by-step.md)
 
----
+<br>
 
 ## Unexpected or Missing Response Data
 
@@ -132,10 +128,9 @@ This troubleshooting guide helps you diagnose and resolve common issues encounte
 
 ### Related Documentation
 
-- Response Handling Guide
-- API Concept
+- [Response Handling Guide](../guides/response_handling.md)
 
----
+<br>
 
 ## Handling HTML Content Issues
 
@@ -159,16 +154,16 @@ This troubleshooting guide helps you diagnose and resolve common issues encounte
 
 ### Related Documentation
 
-- Response Handling Guide
-- Code Examples
+- [Response Handling Guide](../guides/response_handling.md)
+- [Code Examples](../examples/code-examples.md)
 
----
+<br>
 
 ## Rate Limiting Issues
 
 ### Symptom
 
-- Exceeded hourly or daily rate limits
+- Exceeded hourly or daily rate limits.
 - Burst requests hitting endpoint-level limits.
 
 ### How to Fix
@@ -185,9 +180,9 @@ This troubleshooting guide helps you diagnose and resolve common issues encounte
 
 ### Related Documentation
 
-- API Reference
+- [API Reference](../api/api-reference.md)
 
----
+<br>
 
 ## Common Code Mistakes
 
@@ -211,10 +206,10 @@ This troubleshooting guide helps you diagnose and resolve common issues encounte
 
 ### Related Documentation
 
-- Code Examples
-- SDKs
+- [Code Examples](../examples/code-examples.md)
+- [SDKs](../sdks/sdks.md)
 
----
+<br>
 
 ## General Debugging Tips
 
@@ -223,13 +218,17 @@ This troubleshooting guide helps you diagnose and resolve common issues encounte
 - Log full responses during development.
 - Compare failing requests with working examples.
 
----
+<br>
 
 ## Next steps
 
-- Authentication Guide
-- API Reference
-- Step-by-Step Tutorial
-- Response Handling Guide
-- Code Examples
-- SDKs
+- [Authentication Guide](../guides/authentication.md)
+- [API Reference](../api/api-reference.md)
+- [Step-by-Step Tutorial](../getting-started/step-by-step.md)
+- [Response Handling Guide](../guides/response_handling.md)
+- [Code Examples](../examples/code-examples.md)
+- [SDKs](../sdks/sdks.md)
+
+<br>
+
+---
