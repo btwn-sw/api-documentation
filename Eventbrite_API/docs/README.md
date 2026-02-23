@@ -1,16 +1,12 @@
 # Eventbrite API Documentation Portfolio
 
 ## Overview
-This repository contains a complete, structured documentation set for the Eventbrite API, created as a technical writing portfolio project.
-
-The documentation focuses on clarity, real-world usage, and developer experience, following common patterns used in professional API developer portals.
+This repository contains a complete, structured documentation set for the Eventbrite API, created as a technical writing portfolio project. The documentation focuses on clarity, real-world usage, and developer experience, following common patterns used in professional API developer portals.
 
 <br>
 
 ## Why This Project
-This project was created to demonstrate end-to-end API documentation skills, beyond simple API references.
-
-It showcases how different documentation types work together to support developers throughout the full integration lifecycle.
+This project was created to demonstrate end-to-end API documentation skills, beyond simple API references. It showcases how different documentation types work together to support developers throughout the full integration lifecycle.
 
 <br>
 
@@ -98,14 +94,12 @@ This documentation is intended for:
 <br>
 
 ## Project Status
-This project is a documentation-focused portfolio and is not intended for production use.
-
-The content is based on publicly available Eventbrite API documentation and focuses on documentation structure and best practices.
+This project is a documentation-focused portfolio and is not intended for production use. The content is based on publicly available Eventbrite API documentation and focuses on documentation structure and best practices.
 
 <br>
 
 ## About Eventbrite
-:contentReference[oaicite:0]{index=0} is an event management and ticketing platform that provides a RESTful API for accessing event data.
+[Eventbrite](https://www.eventbrite.com/platform/api/) is an event management and ticketing platform that provides a RESTful API for accessing event data.
 
 <br>
 
