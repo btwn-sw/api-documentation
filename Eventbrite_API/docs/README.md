@@ -1,4 +1,4 @@
-# Eventbrite API Documentation Portfolio
+# Eventbrite API Documentation
 This repository contains a complete, structured documentation set for the Eventbrite API, created as a technical writing portfolio project. The documentation focuses on clarity, real-world usage, and developer experience, following common patterns used in professional API developer portals.
 
 <br>
