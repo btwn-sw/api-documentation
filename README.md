@@ -1,6 +1,6 @@
-# API Documentation
+# API Documentation Projects
 
-API Documentation contains multiple API documentation projects designed to demonstrate structured, production-ready API documentation practices.
+This contains multiple API documentation projects designed to demonstrate structured, production-ready API documentation practices.
 Each Project includes a complete documentation set such as API references, guides, authentication flows, and supporting materials.
 
 <br>
@@ -47,7 +47,7 @@ Additional API documentation projects will be added over time. This is designed 
 
 <br>
 
-## About API Documentation
+## About API Documentation Projects
 This project is part of a broader API documentation portfolio focused on practical, structured, and scalable documentation design.
 
 <br>
